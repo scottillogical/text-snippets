@@ -1,0 +1,9 @@
+# support redis-namespace
+# suppport authentication
+# support viewing version history
+# support variable replacement
+
+
+possibly:
+
+# support draft/publish model (or approval)
