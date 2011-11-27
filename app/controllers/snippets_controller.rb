@@ -1,6 +1,6 @@
 class SnippetsController < ApplicationController
 	def index
-		Snippets.all
+		Snippet.all
 	end
 end
 
