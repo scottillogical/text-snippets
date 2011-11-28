@@ -9,9 +9,9 @@
 
 <% @snippets.each do |snippet| %>
   <tr>
-    <td><%= link_to 'Show', snippet %></td>
-    <td><%= link_to 'Edit', edit_snippet_path(snippet) %></td>
-    <td><%= link_to 'Destroy', snippet, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= snippet.name %></td>
+    <td><%= link_to 'Edit', "snippets/#{snippet.id}" %></td>
+    <td><%= link_to 'Destroy', "snippets/#{snippet.id}", confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
