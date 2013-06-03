@@ -1,3 +1,5 @@
 = TextSnippets
 
+Still needs work for any production use.
+
 This project rocks and uses MIT-LICENSE.
